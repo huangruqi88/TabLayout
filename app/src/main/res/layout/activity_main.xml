@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:hrq="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.huang.tablayout.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <com.android.support.design.widget.TabLayout
+        android:id="@+id/tab_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="#ffffff"
+        android:fillViewport="false"
+        hrq:bottomLineColor="#2718d0"
+        hrq:bottomLineHeight="2dp"
+        hrq:bottomLineMode="none"
+        hrq:bottomLineWidth="800dp"
+        hrq:dividerColor="#f2ea03"
+        hrq:dividerHeight="20dp"
+        hrq:dividerWidth="2dp"
+        app:layout_scrollFlags="scroll"
+        app:tabIndicatorHeight="2.0dp"
+        hrq:tabIndicatorWidth="20dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#057523"
+        app:tabTextColor="#0a4fb7">
+
+        <com.android.support.design.widget.TabItem
+            android:id="@+id/tabItem1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tab1" />
+
+        <com.android.support.design.widget.TabItem
+            android:id="@+id/tabItem2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tab2" />
+
+
+        <com.android.support.design.widget.TabItem
+            android:id="@+id/tabItem3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tab3" />
+
+
+    </com.android.support.design.widget.TabLayout>
+
+    <com.android.support.design.widget.TabLayout
+        android:id="@+id/tab_toolbar1"
+        android:layout_below="@+id/tab_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="#ffffff"
+        android:fillViewport="false"
+        hrq:bottomLineColor="#2718d0"
+        hrq:bottomLineHeight="2dp"
+        hrq:bottomLineMode="inner"
+        hrq:bottomLineWidth="800dp"
+        hrq:dividerColor="#f2ea03"
+        hrq:dividerHeight="20dp"
+        hrq:dividerWidth="2dp"
+        app:layout_scrollFlags="scroll"
+        app:tabIndicatorHeight="2.0dp"
+        hrq:tabIndicatorWidth="20dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#057523"
+        app:tabTextColor="#0a4fb7">
+
+        <com.android.support.design.widget.TabItem
+            android:id="@+id/tabItem11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tab1" />
+
+        <com.android.support.design.widget.TabItem
+            android:id="@+id/tabItem22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tab2" />
+
+
+        <com.android.support.design.widget.TabItem
+            android:id="@+id/tabItem33"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tab3" />
+
+
+    </com.android.support.design.widget.TabLayout>
+
+    <com.android.support.design.widget.TabLayout
+        android:id="@+id/tab_toolbar2"
+        android:layout_below="@+id/tab_toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="#ffffff"
+        android:fillViewport="false"
+        hrq:bottomLineColor="#2718d0"
+        hrq:bottomLineHeight="2dp"
+        hrq:bottomLineMode="outer"
+        hrq:bottomLineWidth="800dp"
+        hrq:dividerColor="#f2ea03"
+        hrq:dividerHeight="20dp"
+        hrq:dividerWidth="2dp"
+        app:layout_scrollFlags="scroll"
+        app:tabIndicatorHeight="2.0dp"
+        hrq:tabIndicatorWidth="40dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#057523"
+        app:tabTextColor="#0a4fb7">
+
+        <com.android.support.design.widget.TabItem
+            android:id="@+id/tabItem111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tab1" />
+
+        <com.android.support.design.widget.TabItem
+            android:id="@+id/tabItem222"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tab2" />
+
+
+        <com.android.support.design.widget.TabItem
+            android:id="@+id/tabItem333"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tab3" />
+
+
+    </com.android.support.design.widget.TabLayout>
+
+    <!--<com.flyco.tablayout.SlidingTabLayout-->
+    <!--android:id="@+id/tl_6"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="48dp"-->
+    <!--android:background="#EC7263"-->
+    <!--tl:tl_indicator_corner_radius="2dp"-->
+    <!--tl:tl_indicator_color="#1fbe2a"-->
+    <!--tl:tl_indicator_height="20dp"-->
+    <!--tl:tl_indicator_width="20dp"/>-->
+    <!---->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager_album"
+        android:layout_below="@+id/tab_toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+</RelativeLayout>

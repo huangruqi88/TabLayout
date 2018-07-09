@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TabLayout</string>
+
+    <string name="tab1">标题一</string>
+    <string name="tab2">标题二</string>
+    <string name="tab3">标题三</string>
+
+</resources>

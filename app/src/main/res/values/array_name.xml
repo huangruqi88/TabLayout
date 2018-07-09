@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="album_title">
+        <item>已生成短视频</item>
+        <item>未生成短视频</item>
+    </string-array>
+</resources>
